@@ -1,4 +1,4 @@
-**Disciplina: **ENE0025 - PTR - Protocolos de Transporte e Roteamento** 
+**Disciplina: ENE0025 - PTR - Protocolos de Transporte e Roteamento** 
 
 Curso: **Engenharia de Redes de Comunicação**  
 Instituição: **Universidade de Brasília (UnB)**  
