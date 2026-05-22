@@ -27,7 +27,7 @@ No ambiente de redes, a capacidade de gerenciar e explorar dispositivos localmen
 
 Com os dispositivos colocados no simulador dessa rede, foi conectado dessa maneira com cabos Ethernet:
 
-![](Captura de tela 2026-05-22 173931.png)
+<img src="../Imagens/Captura de tela 2026-05-22 173931.png">
 
 ---
 
@@ -73,9 +73,8 @@ ip 192.168.20.10/24 192.168.20.1
 
 # 5. Teste de Conectividade
 
-![](C:\Users\rafah\AppData\Roaming\marktext\images\2026-05-22-17-50-15-image.png)
-
-![](C:\Users\rafah\AppData\Roaming\marktext\images\2026-05-22-17-50-53-image.png)
+<img src="../Imagens/Captura de tela 2026-05-22 175013.png">
+<img src="../Imagens/Captura de tela 2026-05-22 175050.png">
 
 De acordo com as imagens, os VPCs 1 e 2 conseguem se comunicar.
 
@@ -92,11 +91,11 @@ De acordo com as imagens, os VPCs 1 e 2 conseguem se comunicar.
 
 # 6. Observação da tabela de rotas
 
-![](C:\Users\rafah\AppData\Roaming\marktext\images\2026-05-22-17-59-02-image.png)
+<img src="../Imagens/Captura de tela 2026-05-22 175858.png">
 
-![](C:\Users\rafah\AppData\Roaming\marktext\images\2026-05-22-17-59-14-image.png)
+<img src="../Imagens/Captura de tela 2026-05-22 175912.png">
 
-![](C:\Users\rafah\AppData\Roaming\marktext\images\2026-05-22-18-00-56-image.png)
+<img src="../Imagens/Captura de tela 2026-05-22 180049.png">
 
 ## Tabela de Indicação das Rotas
 
