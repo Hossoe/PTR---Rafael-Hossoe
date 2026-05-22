@@ -27,7 +27,8 @@ No ambiente de redes, a capacidade de gerenciar e explorar dispositivos localmen
 
 Com os dispositivos colocados no simulador dessa rede, foi conectado dessa maneira com cabos Ethernet:
 
-![](C:\Users\rafah\AppData\Roaming\marktext\images\2026-05-22-17-39-51-image.png)
+![](<img width="465" height="419" alt="Captura de tela 2026-05-22 173931" src="https://github.com/user-attachments/assets/ab25001a-ff2e-452a-a85f-812be5c6911f" />
+)
 
 ---
 
