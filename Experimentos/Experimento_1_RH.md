@@ -27,7 +27,7 @@ No ambiente de redes, a capacidade de gerenciar e explorar dispositivos localmen
 
 Com os dispositivos colocados no simulador dessa rede, foi conectado dessa maneira com cabos Ethernet:
 
-![]()
+![](Captura de tela 2026-05-22 173931.png)
 
 ---
 
