@@ -156,26 +156,26 @@ sudo iptables -A FORWARD -s 192.168.20.10 -d 192.168.10.10 -p tcp --sport 80 -j 
 
 ## Análise técnica
 
-1. O que caracteriza um **firewall de pacotes**?
+###### O que caracteriza um **firewall de pacotes**?
 
-2. Quais campos do pacote foram usados nas regras deste laboratório?
+###### Quais campos do pacote foram usados nas regras deste laboratório?
 
-3. Por que foi necessário ativar o **IP forwarding** no Linux?
+###### Por que foi necessário ativar o **IP forwarding** no Linux?
 
-4. Qual é a função da cadeia `FORWARD` no `iptables`?
+###### Qual é a função da cadeia `FORWARD` no `iptables`?
 
-5. Por que o tráfego não permitido foi bloqueado mesmo sem regras específicas para todos os protocolos?
+###### Por que o tráfego não permitido foi bloqueado mesmo sem regras específicas para todos os protocolos?
 
-6. Qual a diferença entre permitir **HTTP** e permitir **ICMP**?
+###### Qual a diferença entre permitir **HTTP** e permitir **ICMP**?
 
-7. O que muda quando a política padrão da cadeia `FORWARD` é `DROP`?
+###### O que muda quando a política padrão da cadeia `FORWARD` é `DROP`?
 
-8. Por que esse laboratório ainda não é considerado um firewall stateful?
+###### Por que esse laboratório ainda não é considerado um firewall stateful?
 
-9. Qual a importância da ordem das regras no `iptables`?
+###### Qual a importância da ordem das regras no `iptables`?
 
-10. Quais vantagens práticas surgem ao usar hosts Linux básicos no lugar de VPCs neste laboratório?
+###### Quais vantagens práticas surgem ao usar hosts Linux básicos no lugar de VPCs neste laboratório?
 
-11. Qual a diferença entre bloquear o ping com `sysctl` e bloquear ICMP com `iptables`?
+###### Qual a diferença entre bloquear o ping com `sysctl` e bloquear ICMP com `iptables`?
 
 ## Conclusão
