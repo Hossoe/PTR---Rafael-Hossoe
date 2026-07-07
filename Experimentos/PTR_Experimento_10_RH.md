@@ -25,7 +25,7 @@ Implementar um **firewall de pacotes** em uma máquina Linux no PNetLab, posic
 
 ### Topologia Lógica
 
-![](C:/Users/rafah/AppData/Roaming/marktext/images/2026-07-02-18-41-10-image.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/cc9b536c03da6f283d50c4dcd9ca082b7360d86a/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-02%20184107.png)
 
 ## Procedimentos
 
@@ -100,59 +100,59 @@ sudo iptables -A FORWARD -s 192.168.20.10 -d 192.168.10.10 -p tcp --sport 80 -j 
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-07 161728.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20161728.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/cc9b536c03da6f283d50c4dcd9ca082b7360d86a/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20161728.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-07 161743.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20161743.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/cc9b536c03da6f283d50c4dcd9ca082b7360d86a/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20161743.png)
 
 ##### Linux Firewall
 
-![Captura de tela 2026-07-07 161759.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20161759.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/cc9b536c03da6f283d50c4dcd9ca082b7360d86a/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20161759.png)
 
 ### Depois de fazer o comando "sudo sysctl -w net.ipv4.icmp_echo_ignore_all=1" adicionado no Linux Firewall
 
 ##### Linux Firewall
 
-![Captura de tela 2026-07-07 162620.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20162620.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/cc9b536c03da6f283d50c4dcd9ca082b7360d86a/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20162620.png)
 
 ### Teste de conectividade entre os Linux Clientes
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-07 162657.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20162657.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/cc9b536c03da6f283d50c4dcd9ca082b7360d86a/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20162657.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-07 163015.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20163015.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20163015.png)
 
 ### Linux Cliente 2 subindo um serviço simples na porta 80 e o teste de acesso pelo Linux Cliente 1
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-07 163135.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20163135.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20163135.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-07 163148.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20163148.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20163148.png)
 
 ### Teste de Telnet
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-07 163711.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20163711.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20163711.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-07 164115.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20164115.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20164115.png)
 
 ### Lista de Regras do Linux Firewall
 
-![Captura de tela 2026-07-07 164152.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20164152.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20164152.png)
 
-![Captura de tela 2026-07-07 164211.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20164211.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20164211.png)
 
-![Captura de tela 2026-07-07 164228.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-07%20164228.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/465b7eb5b128a296a706223772fb288aff556fdb/Imagens%20Lab%2010/Captura%20de%20tela%202026-07-07%20164228.png)
 
 ## Análise técnica
 
