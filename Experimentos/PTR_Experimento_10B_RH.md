@@ -141,33 +141,44 @@ sudo iptables -A FORWARD -s 192.168.10.10 -d 192.168.20.10 -p tcp --dport 80 -m 
 
 | Teste                                | Laboratório 10 - Filtro de pacotes | Laboratório 10B - Stateful |
 | ------------------------------------ | ---------------------------------- | -------------------------- |
-| Ping iniciado pelo Cliente 1         |                                    |                            |
-| Retorno da comunicação               |                                    |                            |
-| HTTP Cliente 1 → Cliente 2           |                                    |                            |
-| Nova conexão iniciada pelo Cliente 2 |                                    |                            |
-| Quantidade de regras                 |                                    |                            |
-| Facilidade de administração          |                                    |                            |
+| Ping iniciado pelo Cliente 1         | Permitido (exigia regra explícita de ida). | **Permitido** (liberado pela regra de estado `NEW`). |
+| Retorno da comunicação               | **Bloqueado**, a menos que houvesse uma regra explícita de volta. | **Permitido automaticamente** pela regra `ESTABLISHED,RELATED`. |
+| HTTP Cliente 1 → Cliente 2           | Permitido se houvesse regra na ida e na volta. | **Permitido** (Nova conexão TCP `NEW` na ida, retorno automático). |
+| Nova conexão iniciada pelo Cliente 2 | Dependia de regras de ida/volta específicas para ele. | **Bloqueado** (Não há regra permitindo o estado `NEW` vindo do Cliente 2). |
+| Quantidade de regras                 | **Elevada** (necessita do dobro de regras: ida e volta). | **Reduzida** (apenas uma regra genérica de retorno e as de ida). |
+| Facilidade de administração          | **Baixa** (complexo de manter e propenso a falhas de segurança). | **Alta** (regras focadas apenas na intenção de abrir o tráfego). |
 
 ## Questões para análise
 
 ###### O que diferencia um firewall stateful de um firewall de pacotes simples?
-
+Um firewall de pacotes simples (stateless) analisa cada pacote isoladamente, verificando apenas informações estáticas como IPs e portas de origem/destino. Já o firewall stateful possui uma tabela de estados (módulo conntrack), o que o permite lembrar e acompanhar o contexto das conexões ativas. Ele sabe se um pacote faz parte de uma sessão legítima já estabelecida ou se é um pacote isolado/malicioso.
 ###### Qual a função de `-m conntrack --ctstate ESTABLISHED,RELATED`?
+Essa regra instrui o firewall a inspecionar o estado da conexão utilizando o módulo de rastreamento.
 
+ESTABLISHED: Permite a passagem de pacotes que pertencem a uma conexão bidirecional já iniciada e autorizada.
+
+RELATED: Permite pacotes que estão associados indiretamente a uma conexão existente, como transferências de dados FTP ou mensagens de erro ICMP.
 ###### Por que o retorno da conexão HTTP não precisou de regra explícita no sentido inverso?
-
+Porque a regra genérica de estado (ESTABLISHED,RELATED) inserida no início da cadeia FORWARD intercepta e aceita automaticamente qualquer tráfego que faça parte de uma conexão iniciada com sucesso. Quando o Cliente 1 iniciou a requisição HTTP (estado NEW), o firewall memorizou a sessão; o tráfego de resposta do Cliente 2 foi reconhecido como ESTABLISHED e liberado.
 ###### O que caracteriza um pacote no estado `NEW`?
-
+Um pacote é classificado como NEW quando ele tenta iniciar uma nova conexão que ainda não existe na tabela de rastreamento do firewall. No caso do TCP, isso é exemplificado pelo primeiro pacote de handshake (com a flag SYN ativada). No ICMP (ping), trata-se do primeiro pacote Echo Request.
 ###### Qual a principal vantagem de usar regras stateful em relação ao Laboratório 10?
-
+A principal vantagem é a segurança combinada à simplicidade de gerenciamento. Não é necessário abrir portas dinâmicas de retorno para o tráfego de entrada de forma permanente, o que fecharia brechas onde atacantes poderiam forjar pacotes simulando respostas. O firewall só abre dinamicamente a porta de volta enquanto a sessão legítima durar.
 ###### Por que o Cliente 2 não conseguiu iniciar novas conexões para o Cliente 1?
-
+Porque a política padrão da cadeia FORWARD foi definida como DROP (sudo iptables -P FORWARD DROP). As únicas regras que permitem o estado inicial NEW foram amarradas especificamente com a origem no Cliente 1 (-s 192.168.10.10). Como não há regra permitindo pacotes NEW vindos do Cliente 2 (192.168.20.10), suas tentativas de conexão foram descartadas pelo firewall.
 ###### O que mudou na quantidade e na lógica das regras entre Laboratório 10 e Laboratório 10B?
+Na lógica: No Lab 10, a lógica era baseada em fluxo estático bidirecional (regras de ida e regras de volta idênticas invertendo os IPs/portas). No Lab 10B, a lógica passou a ser baseada em intencionalidade e direção de início.
 
+Na quantidade: A quantidade de regras diminuiu drasticamente. Independentemente de quantos serviços o Cliente 1 precise acessar no Cliente 2 (HTTP, SSH, DNS, etc.), basta uma única regra ESTABLISHED,RELATED para gerenciar o retorno de todos eles, em vez de criar uma regra de retorno para cada porta.
 ###### Em que tipo de ambiente um firewall stateful tende a ser mais adequado?
-
+Ele é adequado para praticamente qualquer ambiente moderno de rede, especialmente em bordas corporativas, DMZs e firewalls residenciais. É ideal onde clientes internos precisam acessar a internet ou redes externas com segurança, garantindo que servidores externos respondam às requisições, mas fiquem terminantemente proibidos de iniciar conexões arbitrárias para dentro da rede interna.
 ###### O firewall stateful elimina a necessidade de política de bloqueio padrão? Explique.
-
+Não. Ele depende fundamentalmente de uma política de bloqueio padrão (como DROP). O firewall stateful apenas facilita a liberação do tráfego legítimo de retorno. Se a política padrão fosse ACCEPT, todas as conexões não mapeadas (incluindo ataques externos no estado NEW) seriam permitidas de qualquer forma, anulando o propósito do firewall.
 ###### O que a atividade comparativa mostrou de forma mais clara sobre a diferença entre os dois modelos?
-
+A atividade demonstrou de forma prática que o modelo stateful torna o firewall muito mais inteligente e robusto. Enquanto o filtro de pacotes simples exige um esforço administrativo exaustivo e perigoso (abrindo portas de retorno de forma estática), o firewall stateful compreende dinamicamente o comportamento natural do tráfego de rede (pergunta e resposta), permitindo criar políticas restritivas fortes com pouquíssimas linhas de configuração.
 ## Conclusão
+A realização do Experimento 10B permitiu consolidar, de forma prática, o entendimento sobre a arquitetura e o funcionamento de um **firewall stateful** utilizando a ferramenta `iptables` no ambiente Linux. A transição do modelo estático de filtragem de pacotes (*stateless*) do Laboratório 10 para o modelo baseado em estados demonstrou ser um marco fundamental no que tange à otimização e à segurança da infraestrutura de redes.
+
+Ficou evidente que a utilização do módulo `conntrack` reduz drasticamente a complexidade da tabela de regras do firewall, uma vez que o tráfego de retorno legítimo passa a ser gerenciado de forma dinâmica e automatizada pela regra de estado `ESTABLISHED,RELATED`. Isso elimina a necessidade perigosa e ineficiente de abrir portas reversas permanentes. 
+
+Por fim, os testes de conectividade — como o tráfego HTTP e ICMP iniciados estritamente pelo Cliente 1, e o bloqueio bem-sucedido de novas conexões vindas do Cliente 2 — comprovaram a robustez do firewall *stateful*. O modelo garantiu o princípio do privilégio mínimo, provando ser a abordagem ideal para ambientes modernos onde o controle de fluxo deve ser inteligente, escalável e centrado na intencionalidade da conexão.
