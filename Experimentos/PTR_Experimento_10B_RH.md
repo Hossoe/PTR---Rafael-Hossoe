@@ -25,7 +25,7 @@ Implementar um **firewall stateful** em uma máquina Linux no PNetLab , reutil
 
 ## Topologia Lógica
 
-![](C:/Users/rafah/AppData/Roaming/marktext/images/2026-07-02-18-41-10-image.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-02%20184107.png)
 
 ## Procedimentos
 
@@ -78,7 +78,8 @@ Ctrl+O
 Ctrl+X
 
 sudo iptables -F
-sudo iptables -X
+sudo iptables -X<img width="630" height="278" alt="Captura de tela 2026-07-11 171110" src="https://github.com/user-attachments/assets/916affa1-7e43-4f10-8928-ec7a682b2a4d" />
+
 sudo iptables -Z
 sudo iptables -P FORWARD DROP
 sudo iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
@@ -92,49 +93,49 @@ sudo iptables -A FORWARD -s 192.168.10.10 -d 192.168.20.10 -p tcp --dport 80 -m 
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-11 171110.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171110.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171110.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-11 171123.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171123.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171123.png)
 
 ##### Linux Firewall
 
-![Captura de tela 2026-07-11 171221.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171221.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171221.png)
 
 ### Lista de Regras do Linux Firewall
 
-![Captura de tela 2026-07-11 171303.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171303.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171303.png)
 
 ### Teste de conectividade entre os Linux Clientes
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-11 171328.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171328.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171328.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-11 171349.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171349.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171349.png)
 
 ### Linux Cliente 2 subindo um serviço simples na porta 80 e o teste de acesso pelo Linux Cliente 1
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-11 171431.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171431.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171431.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-11 171447.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171447.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171447.png)
 
 ### Teste de Telnet
 
 ##### Linux Cliente 1
 
-![Captura de tela 2026-07-11 171526.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171526.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171526.png)
 
 ##### Linux Cliente 2
 
-![Captura de tela 2026-07-11 171606.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-11%20171606.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a9e338698ba7776e5b36409644120dfa0e004266/Imagens%20Lab%2011/Captura%20de%20tela%202026-07-11%20171606.png)
 
 ## Análise técnica
 
