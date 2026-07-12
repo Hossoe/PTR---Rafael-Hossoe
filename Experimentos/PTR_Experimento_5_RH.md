@@ -25,7 +25,7 @@ Configurar e validar o roteamento dinâmico em uma topologia com três roteadore
 
 ### Topologia Lógica
 
-![Captura de tela 2026-07-12 181304.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20181304.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20181304.png)
 
 ## Procedimentos
 
@@ -218,77 +218,77 @@ save
 
 ##### R - RJ
 
-![Captura de tela 2026-07-12 184420.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184420.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184420.png)
 
-![Captura de tela 2026-07-12 184551.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184551.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184551.png)
 
-![Captura de tela 2026-07-12 184658.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184658.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184658.png)
 
 ##### R - SP
 
-![Captura de tela 2026-07-12 184455.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184455.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184455.png)
 
-![Captura de tela 2026-07-12 184558.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184558.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184558.png)
 
-![Captura de tela 2026-07-12 184727.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184727.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184727.png)
 
 ##### R - BH
 
-![Captura de tela 2026-07-12 184514.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184514.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184514.png)
 
-![Captura de tela 2026-07-12 184604.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184604.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184604.png)
 
-![Captura de tela 2026-07-12 184758.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20184758.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20184758.png)
 
 ## Verificação do OSPF
 
 ##### R - RJ
 
-![Captura de tela 2026-07-12 185131.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185131.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185131.png)
 
-![Captura de tela 2026-07-12 185139.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185139.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185139.png)
 
-![Captura de tela 2026-07-12 185210.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185210.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185210.png)
 
 ##### R - SP
 
-![Captura de tela 2026-07-12 185238.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185238.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185238.png)
 
-![Captura de tela 2026-07-12 185254.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185254.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185254.png)
 
-![Captura de tela 2026-07-12 185318.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185318.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185318.png)
 
 ##### R - BH
 
-![Captura de tela 2026-07-12 185340.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185340.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185340.png)
 
-![Captura de tela 2026-07-12 185356.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185356.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185356.png)
 
-![Captura de tela 2026-07-12 185422.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20185422.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20185422.png)
 
 ### Teste de alcance entre unidades
 
 ##### VPC - RJ - 1
 
-![Captura de tela 2026-07-12 191955.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20191955.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20191955.png)
 
 ### Situação 1 – Remover uma rede do anúncio OSPF em São Paulo
 
-![Captura de tela 2026-07-12 192259.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20192259.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20192259.png)
 
 ### Situação 2 – Interromper o enlace SP-BH
 
 ##### R - SP
 
-![Captura de tela 2026-07-12 192441.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20192441.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20192441.png)
 
 ##### R - RJ
 
-![Captura de tela 2026-07-12 192448.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20192448.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20192448.png)
 
 ### Situação 3 – Remover o RIP de um roteador
 
-![Captura de tela 2026-07-12 192633.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-12%20192633.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/a8cf0c51831abbcb3da3d90df63f37294aa0fc55/Imagens%20Lab%205/Captura%20de%20tela%202026-07-12%20192633.png)
 
 ## Análise técnica
 
