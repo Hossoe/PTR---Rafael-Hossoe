@@ -292,7 +292,7 @@ save
 
 ## Análise técnica
 
-## Comparação orientada entre RIP e OSPF
+### Comparação orientada entre RIP e OSPF
 
 ###### Qual protocolo foi mais simples de configurar?
 
