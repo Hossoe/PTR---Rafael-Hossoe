@@ -27,7 +27,7 @@ No ambiente de redes, a capacidade de gerenciar e explorar dispositivos localmen
 
 Com os dispositivos colocados no simulador dessa rede, foi conectado dessa maneira com cabos Ethernet:
 
-<img src="../Imagens/Captura de tela 2026-05-22 173931.png">
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/734a86395acace1e2a3bde6be9ed921ea0dbb42f/Imagens%20Lab%201/Captura%20de%20tela%202026-07-12%20175842.png)
 
 ---
 
@@ -73,8 +73,9 @@ ip 192.168.20.10/24 192.168.20.1
 
 # 5. Teste de Conectividade
 
-<img src="../Imagens/Captura de tela 2026-05-22 175013.png">
-<img src="../Imagens/Captura de tela 2026-05-22 175050.png">
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/734a86395acace1e2a3bde6be9ed921ea0dbb42f/Imagens%20Lab%201/Captura%20de%20tela%202026-07-12%20175928.png)
+
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/734a86395acace1e2a3bde6be9ed921ea0dbb42f/Imagens%20Lab%201/Captura%20de%20tela%202026-07-12%20175953.png)
 
 De acordo com as imagens, os VPCs 1 e 2 conseguem se comunicar.
 
@@ -91,11 +92,11 @@ De acordo com as imagens, os VPCs 1 e 2 conseguem se comunicar.
 
 # 6. Observação da tabela de rotas
 
-<img src="../Imagens/Captura de tela 2026-05-22 175858.png">
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/734a86395acace1e2a3bde6be9ed921ea0dbb42f/Imagens%20Lab%201/Captura%20de%20tela%202026-07-12%20180112.png)
 
-<img src="../Imagens/Captura de tela 2026-05-22 175912.png">
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/734a86395acace1e2a3bde6be9ed921ea0dbb42f/Imagens%20Lab%201/Captura%20de%20tela%202026-07-12%20180320.png)
 
-<img src="../Imagens/Captura de tela 2026-05-22 180049.png">
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/734a86395acace1e2a3bde6be9ed921ea0dbb42f/Imagens%20Lab%201/Captura%20de%20tela%202026-07-12%20180326.png)
 
 ## Tabela de Indicação das Rotas
 
