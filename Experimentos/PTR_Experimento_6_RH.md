@@ -239,15 +239,16 @@ write
 ## Análise técnica
 
 ###### Qual é a função do BGP nesse cenário?
-
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
 ###### Por que a sessão com o ISP1 usa endereço de loopback?
-
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
 ###### Por que foi necessário configurar `ebgp-multihop 2`?
-
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
 ###### Qual a função do `update-source Loopback1`?
-
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
 ###### Por que foi criada a rota `ip route 200.18.245.64 255.255.255.224 Null0`?
-
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
 ###### Qual a diferença entre o pareamento com o ISP1 e com o ISP2?
-
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
 ## Conclusão
+Neste cenário, o BGP (Border Gateway Protocol) atua como o protocolo de roteamento dinâmico externo (eBGP) responsável pela troca de informações de roteamento entre diferentes Sistemas Autônomos (AS 1000, AS 100, AS 200 e AS 300). A sua principal função é permitir que a empresa (AS 1000) anuncie o seu prefixo público designado (200.18.245.64/27) para a internet global através de seus provedores de trânsito (ISP1 e ISP2), ao mesmo tempo em que aprende as rotas dos prefixos públicos externos (181.0.0.0/8 a 185.0.0.0/8) originados no AS 300.
