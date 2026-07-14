@@ -5,7 +5,7 @@ Departamento: **Engenharia Elétrica**
 
 Professor Responsável: **Prof. Dr. Laerte Peotta de Melo**
 
-# Relatório do Experimento 7 - # Configuração dos Provedores (BGP Externo)
+# Relatório do Experimento 7 - Configuração dos Provedores (BGP Externo)
 
 ## Identificação
 
