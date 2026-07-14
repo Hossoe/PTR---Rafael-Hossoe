@@ -24,7 +24,7 @@ Configurar o protocolo **BGP** no roteador da empresa para que ela possa **an
 
 ## Topologia Lógica
 
-![Captura de tela 2026-07-13 121947.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-13%20121947.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-13%20121947.png)
 
 ## Procedimentos
 
@@ -210,31 +210,31 @@ write
 
 ##### R1
 
-![Captura de tela 2026-07-14 121339.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20121339.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20121339.png)
 
-![Captura de tela 2026-07-14 121351.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20121351.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20121351.png)
 
 ##### ISP1
 
-![Captura de tela 2026-07-14 122328.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122328.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122328.png)
 
-![Captura de tela 2026-07-14 122342.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122342.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122342.png)
 
 ##### ISP2
 
-![Captura de tela 2026-07-14 122406.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122406.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122406.png)
 
-![Captura de tela 2026-07-14 122419.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122419.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122419.png)
 
 ##### ISP3
 
-![Captura de tela 2026-07-14 122440.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122440.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122440.png)
 
-![Captura de tela 2026-07-14 122456.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122456.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122456.png)
 
 ##### R_LAN
 
-![Captura de tela 2026-07-14 122523.png](C:\Users\rafah\OneDrive\Pictures\Screenshots\Captura%20de%20tela%202026-07-14%20122523.png)
+![](https://github.com/Hossoe/PTR---Rafael-Hossoe/blob/e257c03ce056434e0b8ece7fdc0286a4d8ed0d0d/Imagens%20Lab%206/Captura%20de%20tela%202026-07-14%20122523.png)
 
 ## Análise técnica
 
